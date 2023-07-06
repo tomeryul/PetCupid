@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "1034875453437",
+    "firebase_url": "https://fir-8d399-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "fir-8d399",
+    "storage_bucket": "fir-8d399.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034875453437:android:2047b4eca1b18ebaaa2394",
+        "android_client_info": {
+          "package_name": "com.example.demo_firebase"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWo75FQHn4L9A4GchjVOpsgDIkXE41DLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034875453437:android:47eabf1f8486012baa2394",
+        "android_client_info": {
+          "package_name": "com.example.petcupid"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWo75FQHn4L9A4GchjVOpsgDIkXE41DLo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

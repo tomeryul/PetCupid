@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/menu_IMG_dog"
+        android:layout_width="400dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/menu_LBL_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50sp"
+        android:text="PetCupid" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/menu_BTN_register_animal"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="register lost animal"
+            tools:ignore="BottomAppBar" />
+
+        <Button
+            android:id="@+id/menu_BTN_adopt_pet"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:text="adopt pet"
+            tools:ignore="BottomAppBar" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal"
+        android:padding="15dp">
+
+        <Button
+            android:id="@+id/menu_BTN_register_pet"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="register pet"
+            tools:ignore="BottomAppBar" />
+
+        <Button
+            android:id="@+id/menu_BTN_track_pets"
+            android:layout_width="150dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/black"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="0dp"
+            android:text="track my pets"
+            tools:ignore="BottomAppBar" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
